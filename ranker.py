@@ -239,7 +239,7 @@ class Display(webapp2.RequestHandler):
             self.response.write(template.render(template_values))
 
         self.response.write("</div>")
-        self.response.write("        <div style='clear: both;font-size: 12px;text-align:center'>Site code by Tamen - Aerie Peak(US) &#149; <a href='http://github.com/timwoj/ctrprogress'>http://github.com/timwoj/ctrprogress<a/></div>")
+        self.response.write("        <div style='clear: both;font-size: 12px;text-align:center'>A Community Project. Site code by Tamen - Aerie Peak(US) &#149; <a href='http://github.com/timwoj/ctrprogress'>http://github.com/timwoj/ctrprogress<a/></div>")
         self.response.write('</body></html>')
 
 class DisplayText(webapp2.RequestHandler):
